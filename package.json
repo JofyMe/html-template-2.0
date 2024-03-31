@@ -1,0 +1,29 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gulp": "gulp",
+    "build": "cross-env ENVIRONMENT=production npm run gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "cross-env": "^7.0.3",
+    "del": "^7.1.0",
+    "dotenv": "^16.4.1",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "nodemon": "^3.0.3",
+    "pug": "^3.0.2",
+    "sass": "^1.70.0"
+  }
+}
